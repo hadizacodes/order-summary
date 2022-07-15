@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+ *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ /*.....for desktop*/
+ body{
+   background-image: url(pattern-background-desktop.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ #wrapper{
+    max-width: 500px;
+    margin:  50px auto;
+    font-size: 16px;
+    font-family: 'karla', sans-serif;
+    text-align: center;
+    background-color: rgb(251, 253, 255);
+    padding: 10px;
+    border-radius: 10px;
+   
+ }
+ 
+ #grid-container{
+    display: grid;
+
+ }
+ 
+ h2{
+    font-weight: bold;
+    font-size: 2em;
+ }
+    
+ .flex-container{
+    grid-area: item3;
+    background-color: rgb(212, 209, 209);
+    width: 20em;
+    height: 5em;
+    padding: 10px;
+    border-radius: 10px;
+    margin:15px auto;
+    
+    
+ }
+ ul {
+   list-style: none;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 0;
+
+ }
+ ul li{
+   padding-left: 1em;
+ }
+
+ li:first-child{
+   background-size: contain;
+ }
+ 
+  li:last-child{
+   margin-left: auto;
+   margin-right: 2em;
+ }
+ .h4{
+   font-weight: bold;
+ }
+ 
+ .grid-btns{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 8px auto;
+    width: 20em;
+    grid-gap: 10px;
+ }
+ button{
+   font-size: 16px;
+   border: none;
+   background-color: rgb(251, 252, 253);
+
+ }
+ button:hover{
+   background-color: blue;
+   color: white;
+   font-weight: bold;
+   border-radius: 10px;
+   height: 3em;
+ }
+
+ 
+     
+
+
+
+
+
+     
+ 
+
+ 
